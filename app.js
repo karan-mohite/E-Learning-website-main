@@ -11,7 +11,7 @@ mongoose.set('strictQuery', true); // Add this line
 const staticPath = path.join(__dirname, "public");
 app.use(express.static(staticPath));
 
-mongoose.connect("mongodb+srv://om:pharate11@cluster0.nnceu.mongodb.net/your-database-name", {
+mongoose.connect("mongodb+srv://om:pharate11@cluster0.btaiygi.mongodb.net/Elearninng", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
